@@ -35,4 +35,5 @@ models:
   Pgsv_core:
     # Applies to all files under models/example/
     example:
+      +schema: pgsv_core
       materialized: view
